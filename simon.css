@@ -1,0 +1,91 @@
+body {
+    text-align: center;
+    /* background-color: limegreen; */
+}
+
+#board {
+    height: 100px;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFE3; 
+}
+
+.high {
+    margin-left: 45%;   
+    height: 75px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 40px;
+    background-color: gold; 
+}
+
+.high h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 800;
+    /* animation: coloranimation 1s linear 0s infinite normal; */
+}
+
+@keyframes coloranimation {
+    0% {
+        color: greenyellow;
+    }
+    25% {
+        color: red;
+    }
+    50% {
+        color: yellow;
+    }
+    75% {
+        color: blue;
+    }
+    100% {
+        color: limegreen;
+    }
+}
+
+
+
+.btn {
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 30px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.red {
+    background-color: #d95980;
+}
+.yellow {
+    background-color: #f99b45;
+}
+.green {
+    background-color: #63aac0;
+}
+.purple {
+    background-color: #819ff9;
+}
+
+.flash {
+    background-color: white;
+}
+.userFlash {
+    background-color: limegreen;
+}
